@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1920 1080"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg76"
+   sodipodi:docname="HMI.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview76"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="1.2868641"
+     inkscape:cx="792.23595"
+     inkscape:cy="821.37655"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg76" />
+  <defs
+     id="defs4">
+    <style
+       id="style1">
+      .bg { fill: #121212; }
+      .panel-bg { fill: #1e1e1e; stroke: #333333; stroke-width: 2; }
+      .title-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 28px; fill: #ffffff; font-weight: bold; letter-spacing: 2px; }
+      .section-title { font-family: 'Segoe UI', Arial, sans-serif; font-size: 18px; fill: #aaaaaa; font-weight: bold; }
+      .label-text { font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; fill: #dddddd; }
+      .tag-text { font-family: 'Consolas', Monaco, monospace; font-size: 12px; fill: #00ffcc; font-weight: bold; }
+      .value-bg { fill: #0a0a0a; stroke: #444444; stroke-width: 1; }
+      .value-text { font-family: 'Consolas', Arial, sans-serif; font-size: 14px; fill: #00ff00; text-anchor: middle; }
+      
+      /* 管路颜色编码 */
+      .pipe-n2 { stroke: #ffaa00; stroke-width: 4; fill: none; stroke-linejoin: round; }
+      .pipe-ethanol { stroke: #55ff55; stroke-width: 4; fill: none; stroke-linejoin: round; }
+      .pipe-lox { stroke: #00aaff; stroke-width: 4; fill: none; stroke-linejoin: round; }
+      .pipe-igniter { stroke: #ff5555; stroke-width: 3; fill: none; stroke-linejoin: round; }
+      
+      /* 阀门与组件样式 */
+      .valve-body { fill: #555555; stroke: #888888; stroke-width: 1.5; cursor: pointer; }
+      .valve-actuator { stroke: #888888; stroke-width: 1.5; fill: none; }
+      .tank { fill: #2a2a2a; stroke: #666666; stroke-width: 3; }
+      .sensor-circle { fill: #111111; stroke: #00ffcc; stroke-width: 1.5; }
+    </style>
+    <g
+       id="valve">
+      <path
+         d="M -15 -10 L 15 10 L 15 -10 L -15 10 Z"
+         class="valve-body"
+         id="path1" />
+      <circle
+         cx="0"
+         cy="0"
+         r="3"
+         fill="#111111"
+         id="circle1" />
+    </g>
+    <g
+       id="elec-valve">
+      <use
+         href="#valve"
+         id="use1" />
+      <path
+         d="M 0 -2 L 0 -12 M -8 -12 L 8 -12"
+         class="valve-actuator"
+         id="path2" />
+    </g>
+    <g
+       id="regulator">
+      <circle
+         cx="0"
+         cy="0"
+         r="12"
+         fill="#333333"
+         stroke="#888888"
+         stroke-width="2"
+         id="circle2" />
+      <path
+         d="M -12 0 L 12 0 M -6 -4 L 0 4 L 6 -4"
+         stroke="#ffffff"
+         stroke-width="1.5"
+         fill="none"
+         id="path3" />
+    </g>
+    <g
+       id="check-valve">
+      <circle
+         cx="0"
+         cy="0"
+         r="12"
+         fill="#222222"
+         stroke="#888888"
+         stroke-width="1.5"
+         id="circle3" />
+      <path
+         d="M -8 0 L 6 0 M 6 -5 L 6 5 M 0 -4 L 5 0 L 0 4"
+         stroke="#55ff55"
+         stroke-width="1.5"
+         fill="none"
+         id="path4" />
+    </g>
+    <g
+       id="data-box">
+      <rect
+         x="-45"
+         y="-10"
+         width="90"
+         height="20"
+         rx="3"
+         class="value-bg"
+         id="rect4" />
+    </g>
+  </defs>
+  <rect
+     width="1920"
+     height="1080"
+     class="bg"
+     id="rect5" />
+  <rect
+     x="0.052350592"
+     y="0.052350592"
+     width="1919.8953"
+     height="77.525154"
+     fill="#1a1a1a"
+     stroke="#2d2d2d"
+     stroke-width="2.1047"
+     id="rect6" />
+  <text
+     x="38.100677"
+     y="51.799614"
+     class="title-text"
+     id="text6"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold'">2KN 推力供给系统实时监控看板 (HMI)</text>
+  <rect
+     x="1679.4294"
+     y="24.913481"
+     width="220"
+     height="30"
+     rx="5"
+     fill="#222222"
+     stroke="#00ff00"
+     stroke-width="1"
+     id="box_PLC_comm_status"
+     inkscape:label="box_PLC_comm_status" />
+  <text
+     x="1789.4294"
+     y="44.913479"
+     fill="#00ff00"
+     font-family="Arial"
+     font-size="14"
+     text-anchor="middle"
+     id="text_PLC_comm_status"
+     style="font-size:16px">PLC 通讯状态: 正常</text>
+  <rect
+     x="30.314495"
+     y="100.04787"
+     width="519.6377"
+     height="950.8822"
+     class="panel-bg"
+     rx="8.3142014"
+     id="panel_ethanol_system" />
+  <text
+     x="63.313187"
+     y="129.78537"
+     class="section-title"
+     id="text8">料箱 1: 乙醇系统 (Ethanol System)</text>
+  <g
+     id="g38">
+    <rect
+       x="47.789566"
+       y="165.97333"
+       width="114.46146"
+       height="51.861725"
+       rx="7.8041906"
+       class="tank"
+       id="rect14-4"
+       style="fill:#2a2a2a;stroke:#666666;stroke-width:0.87114" />
+    <text
+       x="62.22121"
+       y="196.48627"
+       class="label-text"
+       id="text9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">加压气源 N₂</text>
+  </g>
+  <use
+     href="#regulator"
+     x="320"
+     y="190"
+     id="use10"
+     transform="matrix(1.3013497,0,0,1.3013497,-96.99154,-57.256436)" />
+  <text
+     x="361.30389"
+     y="162.82248"
+     class="tag-text"
+     id="text12"
+     style="font-size:16px"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+       id="tspan90">XV-102（乙醇加压通断阀）</tspan></text>
+  <text
+     x="292.1033"
+     y="344.06067"
+     class="tag-text"
+     id="text14"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">XV-103 (电控)</text>
+  <circle
+     cx="160"
+     cy="390"
+     r="15"
+     class="sensor-circle"
+     id="sensor_PT_ethanol_tank" />
+  <text
+     x="160"
+     y="394"
+     class="tag-text"
+     text-anchor="middle"
+     id="text16">PT</text>
+  <circle
+     cx="230"
+     cy="390"
+     r="15"
+     class="sensor-circle"
+     id="sensor_TI_ethanol_tank" />
+  <text
+     x="230"
+     y="394"
+     class="tag-text"
+     text-anchor="middle"
+     id="text18">TI</text>
+  <circle
+     cx="300"
+     cy="390"
+     r="15"
+     class="sensor-circle"
+     id="safety_PSV_ethanol_tank" />
+  <text
+     x="300"
+     y="394"
+     class="tag-text"
+     text-anchor="middle"
+     id="text20">PSV</text>
+  <text
+     x="125.97803"
+     y="831.72333"
+     class="tag-text"
+     id="text21"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle"><tspan
+       sodipodi:role="line"
+       id="tspan26"
+       x="125.97803"
+       y="831.72333">XV-104（乙醇通断阀）</tspan></text>
+  <use
+     href="#check-valve"
+     x="230"
+     y="900"
+     transform="translate(30.959126,-40.106139)"
+     id="use2" />
+  <rect
+     x="1370.046"
+     y="100.04607"
+     width="519.64124"
+     height="947.59692"
+     class="panel-bg"
+     rx="8.3142605"
+     id="panel_LOX_system" />
+  <rect
+     x="1766.7616"
+     y="637.1048"
+     width="114.46146"
+     height="51.861725"
+     rx="7.8041906"
+     class="tank"
+     id="rect14-4-2"
+     style="fill:#2a2a2a;stroke:#666666;stroke-width:0.87114" />
+  <text
+     x="1382.949"
+     y="134.28954"
+     class="section-title"
+     id="text23">料箱 2: 液氧系统 (LOX System)</text>
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202"
+     transform="matrix(1.5193341,0,0,1.5708276,-868.62275,-108.07233)" />
+  <text
+     x="1698.2522"
+     y="161.64171"
+     class="tag-text"
+     id="text27"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">XV-202（液氧加压通断阀）</text>
+  <text
+     x="1707.7882"
+     y="382.15335"
+     class="tag-text"
+     id="text29"
+     style="font-size:16px">XV-203 (<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+   id="tspan92">电控</tspan>)</text>
+  <use
+     href="#valve"
+     x="1780"
+     y="660"
+     transform="matrix(1.3193338,0,0,1.4155202,-616.18187,-272.68088)"
+     id="use3" />
+  <text
+     x="1822.7448"
+     y="668.49774"
+     class="label-text"
+     text-anchor="middle"
+     id="text32"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">液氧加注源</text>
+  <circle
+     cx="1498.9558"
+     cy="397.47134"
+     r="15"
+     class="sensor-circle"
+     id="sensor_PT_LOX_tank" />
+  <text
+     x="1498.9558"
+     y="401.47134"
+     class="tag-text"
+     text-anchor="middle"
+     id="text33">PT</text>
+  <circle
+     cx="1544.9917"
+     cy="397.70633"
+     r="15"
+     class="sensor-circle"
+     id="safety_PSV_LOX_tank" />
+  <text
+     x="1544.9917"
+     y="401.70633"
+     class="tag-text"
+     text-anchor="middle"
+     id="text35">PSV</text>
+  <text
+     x="1693.0737"
+     y="830.20459"
+     class="tag-text"
+     id="text36"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle"><tspan
+       sodipodi:role="line"
+       id="tspan28"
+       x="1693.0737"
+       y="830.20459">XV-205（液氧通断阀）</tspan></text>
+  <use
+     href="#check-valve"
+     x="1580"
+     y="880"
+     id="valve_CV_LOX_feed"
+     transform="rotate(-89.776664,1535.0767,894.15613)"
+     inkscape:label="use0" />
+  <text
+     x="1375.5214"
+     y="917.06183"
+     class="tag-text"
+     id="text37"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';font-size:17.33333333px">XV-206 (电控球阀)</text>
+  <g
+     id="g40">
+    <rect
+       x="1389.5098"
+       y="164.22597"
+       width="114.46146"
+       height="51.861725"
+       rx="7.8041906"
+       class="tank"
+       id="rect14-4-4"
+       style="fill:#2a2a2a;stroke:#666666;stroke-width:0.87114" />
+    <text
+       x="1403.9967"
+       y="196.28809"
+       class="label-text"
+       id="text24"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:Arial">加压气源 N₂</text>
+  </g>
+  <rect
+     x="580"
+     y="100"
+     width="760"
+     height="420"
+     class="panel-bg"
+     rx="8"
+     id="panel_ignition_purge_system" />
+  <text
+     x="594.49048"
+     y="130.37936"
+     class="section-title"
+     id="text38">小火炬点火与气体吹扫系统</text>
+  <g
+     id="g35">
+    <rect
+       x="595.39917"
+       y="156.29691"
+       width="114.46146"
+       height="51.861725"
+       rx="7.8041906"
+       class="tank"
+       id="rect14-4-6"
+       style="fill:#2a2a2a;stroke:#666666;stroke-width:0.87114" />
+    <text
+       x="611.10358"
+       y="187.37421"
+       class="label-text"
+       id="text39"
+       style="font-size:16px">吹扫气源 N₂</text>
+  </g>
+  <use
+     href="#regulator"
+     x="800"
+     y="180"
+     id="use40"
+     transform="matrix(1.3095063,0,0,1.3095063,-114.82685,-55.711138)" />
+  <use
+     href="#regulator"
+     x="800"
+     y="180"
+     id="use40-7"
+     transform="matrix(1.3095063,0,0,1.3095063,-227.51667,74.7855)" />
+  <text
+     x="1023.2315"
+     y="153.9623"
+     class="tag-text"
+     id="text41"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">XV-302 (电控阀)</text>
+  <use
+     href="#valve"
+     x="1780"
+     y="660"
+     transform="matrix(1.5709648,0,0,1.4073641,-1748.575,-696.67441)"
+     id="use3-5" />
+  <use
+     href="#valve"
+     x="1780"
+     y="660"
+     transform="matrix(1.3193338,0,0,1.4155202,-1595.9561,-623.99705)"
+     id="use3-5-9" />
+  <use
+     href="#valve"
+     x="1780"
+     y="660"
+     transform="matrix(1.3193338,0,0,1.4155202,-1924.0194,-644.94432)"
+     id="use3-5-9-9"
+     inkscape:label="use55" />
+  <g
+     id="g36">
+    <rect
+       x="594.44275"
+       y="285.24326"
+       width="114.46146"
+       height="51.861725"
+       rx="7.8041906"
+       class="tank"
+       id="rect14-4-8"
+       style="fill:#2a2a2a;stroke:#666666;stroke-width:0.87114" />
+    <text
+       x="612.47388"
+       y="317.46204"
+       class="label-text"
+       id="text43"
+       style="font-size:16px">正丙烷气源</text>
+  </g>
+  <text
+     x="882.09033"
+     y="282.68335"
+     class="tag-text"
+     id="text45"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">XV-401（丙烷通断阀）</text>
+  <use
+     href="#valve"
+     x="960"
+     y="310"
+     stroke="#ff5555"
+     id="use46"
+     transform="matrix(1.4267248,0,0,1.4267248,-373.31602,-131.67654)" />
+  <g
+     id="g37">
+    <rect
+       x="594.97479"
+       y="352.82993"
+       width="114.46146"
+       height="51.861725"
+       rx="7.8041906"
+       class="tank"
+       id="rect14-4-5"
+       style="fill:#2a2a2a;stroke:#666666;stroke-width:0.87114" />
+    <text
+       x="613.65063"
+       y="385.78076"
+       class="label-text"
+       id="text47"
+       style="font-size:16px">点火氧气源</text>
+  </g>
+  <text
+     x="876.47516"
+     y="355.39194"
+     class="tag-text"
+     id="text49"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">XV-402（氧气通断阀）</text>
+  <rect
+     x="578.41156"
+     y="550.05603"
+     width="761.53229"
+     height="500.86572"
+     class="panel-bg"
+     rx="8.0161295"
+     id="panel_chamber_thrust_system" />
+  <path
+     d="m 844.85114,781.78372 h 131.17918 l 43.72628,90.7025 -21.86307,22.67563 65.58967,136.05365 H 757.39838 l 65.58956,-136.05365 -21.86317,-22.67563 z"
+     fill="#444444"
+     stroke="#888888"
+     stroke-width="6.67973"
+     id="path50" />
+  <rect
+     x="860"
+     y="720"
+     width="100"
+     height="60"
+     fill="#333333"
+     stroke="#666666"
+     stroke-width="2"
+     id="rect50" />
+  <text
+     x="910"
+     y="755"
+     class="label-text"
+     text-anchor="middle"
+     font-weight="bold"
+     id="text51"
+     style="-inkscape-font-specification:'Arial Bold';font-family:Arial;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:21.33333333px">火花塞</text>
+  <rect
+     x="592.3493"
+     y="563.92834"
+     width="160"
+     height="50"
+     rx="5"
+     fill="#2b2b44"
+     stroke="#555588"
+     id="box_actuator_gyro_system"
+     inkscape:label="box_actuator_gyro_system" />
+  <text
+     x="672.93707"
+     y="594.58984"
+     class="label-text"
+     text-anchor="middle"
+     font-size="12"
+     id="label_actuator_gyro_system">电缸及陀螺仪控制系统</text>
+  <path
+     d="M 163.07372,190.48421 205,190 m 30,0 h 67.7614 m 33.3579,0 H 415 m 30,0 h 45 V 450 H 340"
+     class="pipe-n2"
+     id="pipe_N2_ethanol_pressurization_main"
+     sodipodi:nodetypes="cccccccccc" />
+  <path
+     d="m 490,290 h -45 m 45,50 h -45"
+     class="pipe-n2"
+     id="pipe_N2_ethanol_pressurization_branch"
+     style="display:inline" />
+  <path
+     d="m 1504.2253,190 h 55 m 30,0 h 70 m 30,0 h 62.0817 m 47.6639,0 h 45.2544 v 260 h -151.9929"
+     class="pipe-n2"
+     id="pipe_N2_LOX_pressurization_main"
+     sodipodi:nodetypes="cccccccccc" />
+  <path
+     d="m 1844.2253,290 h -55 m 55,50 h -55"
+     class="pipe-n2"
+     id="pipe_N2_LOX_pressurization_branch" />
+  <path
+     d="m 710.61714,180.16841 h 103.23434 m 37.61986,0 h 62.69977 m 37.61987,0 h 75.23972 m 37.6199,0 180.385,-0.70327 v 319.84133 l -813.65272,0.70327 v 359.8215 H 275.55522"
+     class="pipe-n2"
+     id="pipe_N2_purge_main"
+     sodipodi:nodetypes="cccccccccccc" />
+  <path
+     d="m 1243.7855,231.74075 h -170.446"
+     class="pipe-n2"
+     id="pipe_N2_purge_branch"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 709.94519,310 21.63292,0 m 41.55498,0 h 29.05318 m 35.47341,0 h 50 m 30,0 h 55.7429 m 45.81212,0 32.6337,0.70361 0.516,70.49088 -0.4344,351.8865 -91.10245,-0.3233"
+     class="pipe-igniter"
+     id="pipe_igniter_fuel_main"
+     sodipodi:nodetypes="ccccccccccccc" />
+  <path
+     d="m 710.1443,380 h 28.27491 m 30,0 h 40 m 30,0 h 50 m 30,0 23.42947,0.16005 v 338.62144"
+     class="pipe-igniter"
+     id="pipe_igniter_oxygen_main"
+     sodipodi:nodetypes="ccccccccc"
+     style="stroke:#9775f7;stroke-opacity:1" />
+  <path
+     d="m 230,740 v 65 m 0,30 0.70362,123.87973 m -2.11085,1.82388 408.65529,-0.63697 0.78994,-196.36012 220.38211,0.72331"
+     class="pipe-ethanol"
+     id="pipe_ethanol_feed_main"
+     sodipodi:nodetypes="cccccccc" />
+  <path
+     d="m 1765.7824,660.15649 -13.1397,0 m -40.5884,0 h -132.518 v 79.67899"
+     class="pipe-lox"
+     id="pipe_LOX_fill_source"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     d="m 1580,740 v 65 M 1504.9054,880.04142 1435,880 m -30,0 H 1200 V 760 H 960.74921 M 1580,835 l 0.1629,45.13593 c -6.6329,-0.14421 -59.6764,-0.14855 -75.2575,-0.0945"
+     class="pipe-lox"
+     id="pipe_LOX_feed_main"
+     sodipodi:nodetypes="ccccccccccc" />
+  <text
+     xml:space="preserve"
+     style="writing-mode:lr-tb;direction:ltr;fill:#000000"
+     x="1795.6036"
+     y="754.42474"
+     id="text79"><tspan
+       sodipodi:role="line"
+       id="tspan78"
+       x="1795.6036"
+       y="754.42474" /></text>
+  <path
+     d="m 247.54869,859.96716 -13.98747,-1e-5"
+     class="pipe-n2"
+     style="display:inline"
+     sodipodi:nodetypes="cc"
+     id="path5" />
+  <path
+     style="fill:#00ffff;stroke:#ffaa00;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1520.9086,878.01349 0.1241,-14.85675"
+     id="pipe_N2_LOX_short_link"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#ffaa00;stroke-width:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 1520.8836,833.70773 -0.3338,-64.03218 -273.728,0.0423 -1.4622,-270.47234"
+     id="pipe_N2_cross_pressurization"
+     sodipodi:nodetypes="cccc" />
+  <g
+     id="g39">
+    <rect
+       x="120"
+       y="420"
+       width="220"
+       height="320"
+       rx="15"
+       class="tank"
+       id="rect14" />
+    <text
+       x="232.1743"
+       y="568.40369"
+       class="label-text"
+       font-size="18"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text15"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Arial;-inkscape-font-specification:Arial">乙醇储液罐</text>
+    <use
+       href="#data-box"
+       x="230"
+       y="360"
+       id="box_TI_ethanol_tank"
+       inkscape:label="box_TI_ethanol_tank"
+       transform="matrix(1.2550549,0,0,1.6796104,-52.191721,49.016067)" />
+    <text
+       x="236.00276"
+       y="661.95282"
+       class="value-text"
+       id="value_TI_ethanol_tank"
+       inkscape:label="value_TI_ethanol_tank"
+       style="font-size:21.3333px">0.0 °C</text>
+    <use
+       href="#data-box"
+       x="230"
+       y="360"
+       id="use4"
+       transform="matrix(1.2550549,0,0,1.6796104,-53.127995,1.2661141)" />
+    <text
+       x="234.05685"
+       y="613.06219"
+       class="value-text"
+       id="text4"
+       style="font-size:21.3333px"
+       inkscape:label="value_PT_ethanol_tank">0.00 MPa</text>
+  </g>
+  <g
+     id="g42">
+    <rect
+       x="1470"
+       y="420"
+       width="220"
+       height="320"
+       rx="15"
+       class="tank"
+       id="rect29" />
+    <text
+       x="1580.6593"
+       y="563.51666"
+       class="label-text"
+       font-size="18"
+       fill="#ffffff"
+       text-anchor="middle"
+       id="text30"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Arial;-inkscape-font-specification:Arial">液氧储液罐</text>
+    <g
+       id="g41">
+      <use
+         href="#data-box"
+         x="230"
+         y="360"
+         id="use6-5"
+         transform="matrix(1.2550549,0,0,1.6796104,1295.9546,-7.3330043)" />
+      <text
+         x="1583.1393"
+         y="604.46307"
+         class="value-text"
+         id="text7-4"
+         style="font-size:21.3333px;font-family:Consolas, Arial, sans-serif;text-anchor:middle;fill:#00ff00"
+         inkscape:label="value_PT_LOX_tank">0.00 MPa</text>
+    </g>
+  </g>
+  <g
+     id="g31">
+    <text
+       x="909.47467"
+       y="962.55334"
+       class="tag-text"
+       text-anchor="middle"
+       id="text61"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">TT-303 (喷管扩张段)</text>
+    <text
+       x="908.89978"
+       y="838.69836"
+       class="tag-text"
+       text-anchor="middle"
+       id="text63"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">PT-303 (燃烧室压力)</text>
+    <text
+       x="909.62897"
+       y="899.7666"
+       class="tag-text"
+       text-anchor="middle"
+       font-size="14"
+       id="text65"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">ZT-301 (主推力传感器)</text>
+    <use
+       href="#data-box"
+       x="230"
+       y="360"
+       id="use5"
+       transform="matrix(1.2550549,0,0,1.6796104,623.12176,321.20055)" />
+    <text
+       x="911.31628"
+       y="934.13727"
+       class="value-text"
+       id="text5"
+       style="font-size:21.3333px"
+       inkscape:label="value_ZT_301">0.0 N</text>
+    <use
+       href="#data-box"
+       x="230"
+       y="360"
+       id="use6"
+       transform="matrix(1.2550549,0,0,1.6796104,621.15209,258.46653)" />
+    <text
+       x="908.33691"
+       y="870.26257"
+       class="value-text"
+       id="text7"
+       style="font-size:21.3333px"
+       inkscape:label="value_PT_303">0.00 MPa</text>
+    <use
+       href="#data-box"
+       x="230"
+       y="360"
+       id="use7"
+       transform="matrix(1.2550549,0,0,1.6796104,623.20916,383.53217)" />
+    <text
+       x="911.40369"
+       y="996.46887"
+       class="value-text"
+       id="text10"
+       style="font-size:21.3333px"
+       inkscape:label="value_TT_303">0.0 °C</text>
+  </g>
+  <g
+     id="g34">
+    <text
+       x="1134.8849"
+       y="712.96094"
+       class="tag-text"
+       text-anchor="middle"
+       id="text57"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial Bold';font-size:16px">PT-302 (液氧入口)</text>
+    <text
+       x="1131.2374"
+       y="821.34259"
+       class="tag-text"
+       text-anchor="middle"
+       id="text59"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">TT-302 (液氧入口)</text>
+    <use
+       href="#data-box"
+       x="230"
+       y="360"
+       id="use11"
+       transform="matrix(1.2550549,0,0,1.6796104,847.31472,181.27906)" />
+    <text
+       x="1137.5262"
+       y="794.21576"
+       class="value-text"
+       id="text11"
+       style="font-size:21.3333px"
+       inkscape:label="value_TT_302">0.0 N</text>
+    <use
+       href="#data-box"
+       x="230"
+       y="360"
+       id="use13"
+       transform="matrix(1.2550549,0,0,1.6796104,846.3536,132.16041)" />
+    <text
+       x="1133.5383"
+       y="743.95642"
+       class="value-text"
+       id="text13"
+       style="font-size:21.3333px"
+       inkscape:label="value_PT_302">0.00 MPa</text>
+  </g>
+  <g
+     id="g32">
+    <text
+       x="741.03308"
+       y="715.04431"
+       class="tag-text"
+       text-anchor="middle"
+       id="text89"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">PT-301 (乙醇入口)</text>
+    <use
+       href="#data-box"
+       x="230"
+       y="360"
+       id="use14"
+       transform="matrix(1.2550549,0,0,1.6796104,453.18378,137.59048)" />
+    <text
+       x="740.36853"
+       y="749.38647"
+       class="value-text"
+       id="text17"
+       style="font-size:21.3333px"
+       inkscape:label="value_PT_301">0.00 MPa</text>
+  </g>
+  <g
+     id="g33">
+    <text
+       x="742.25421"
+       y="824.77136"
+       class="tag-text"
+       text-anchor="middle"
+       id="text55"
+       style="font-size:16px">TT-301 (<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+   id="tspan21">乙醇入口</tspan>)</text>
+    <use
+       href="#data-box"
+       x="230"
+       y="360"
+       id="use17"
+       transform="matrix(1.2550549,0,0,1.6796104,454.56496,182.90069)" />
+    <text
+       x="742.75946"
+       y="795.8374"
+       class="value-text"
+       id="text19"
+       style="font-size:21.3333px"
+       inkscape:label="value_TT_301">0.0 °C</text>
+  </g>
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202-4"
+     transform="matrix(1.5193341,0,0,1.5708276,-875.24922,42.92767)"
+     inkscape:label="valve_XV_203" />
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202-0"
+     transform="matrix(1.5193341,0,0,1.5708276,-1063.7432,526.71779)"
+     inkscape:label="valve_XV_205" />
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202-2"
+     transform="matrix(1.5193341,0,0,1.5708276,-1226.8481,582.92767)"
+     inkscape:label="valve_XV_206" />
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202-00"
+     transform="matrix(1.5193341,0,0,1.5708276,-1736.9058,12.210227)"
+     inkscape:label="valve_XV_401" />
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202-8"
+     transform="matrix(1.5193341,0,0,1.5708276,-1744.2987,84.041918)"
+     inkscape:label="valve_XV_402" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:Arial;-inkscape-font-specification:'Arial Bold';writing-mode:lr-tb;direction:ltr;fill:none;stroke:#ffaa00;stroke-width:5;stroke-dasharray:none"
+     x="839.07648"
+     y="119.29147"
+     id="text25"><tspan
+       sodipodi:role="line"
+       id="tspan23"
+       x="839.07648"
+       y="119.29147" /></text>
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202-84"
+     transform="matrix(1.5193341,0,0,1.5708276,-1595.9646,-117.00418)"
+     inkscape:label="valve_XV_302" />
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202-09"
+     transform="matrix(1.5193341,0,0,1.5708276,-2214.3714,-107.38076)"
+     inkscape:label="valve_XV_102" />
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202-5"
+     transform="matrix(1.5193341,0,0,1.5708276,-2220.5544,41.202923)"
+     inkscape:label="valve_XV_103" />
+  <use
+     href="#elec-valve"
+     x="1740"
+     y="190"
+     id="valve_XV_202-48"
+     transform="matrix(1.5193341,0,0,1.5708276,-2413.6318,526.3635)"
+     inkscape:label="valve_XV_104" />
+  <use
+     href="#valve"
+     x="1780"
+     y="660"
+     transform="matrix(1.4324045,0,0,1.5368344,-782.15542,-725.07228)"
+     id="use3-9" />
+  <use
+     href="#regulator"
+     x="1640"
+     y="190"
+     id="use25"
+     transform="matrix(1.6216508,0,0,1.6216508,-985.66026,-118.492)" />
+  <use
+     href="#valve"
+     x="1780"
+     y="660"
+     transform="matrix(1.3193338,0,0,1.4155202,-1513.5231,-753.63372)"
+     id="use3-90" />
+  <use
+     href="#regulator"
+     x="800"
+     y="180"
+     id="use40-4"
+     transform="matrix(1.3095063,0,0,1.3095063,-223.40764,144.9378)" />
+  <use
+     href="#valve"
+     x="1780"
+     y="660"
+     transform="matrix(1.3193338,0,0,1.4155202,-1593.6292,-553.95627)"
+     id="use3-5-9-0" />
+  <use
+     href="#valve"
+     x="1780"
+     y="660"
+     transform="matrix(1.3193338,0,0,1.4155202,-2127.7318,-742.88296)"
+     id="use8" />
+  <use
+     href="#valve"
+     x="1780"
+     y="660"
+     transform="matrix(1.4324045,0,0,1.5368344,-977.00596,-823.00708)"
+     id="use3-9-5"
+     inkscape:label="use26-10" />
+  <!-- 时序进度条 (Timeline) -->
+  <g
+     id="timeline_group"
+     transform="translate(637.74527,24.36713)">
+    <text
+       x="500"
+       y="0"
+       fill="#00ffcc"
+       font-family="Arial"
+       font-size="14px"
+       font-weight="bold"
+       text-anchor="middle"
+       id="text_current_state"
+       inkscape:label="text_current_state">等待试车...</text>
+    <rect
+       x="0"
+       y="8"
+       width="1000"
+       height="12"
+       rx="6"
+       fill="#222222"
+       stroke="#444444"
+       stroke-width="1"
+       id="rect_timeline_bg" />
+    <rect
+       id="timeline_fill"
+       inkscape:label="timeline_fill"
+       x="0"
+       y="8"
+       width="0"
+       height="12"
+       rx="6"
+       fill="#00aaff" />
+    <line
+       x1="0"
+       y1="8"
+       x2="0"
+       y2="28"
+       stroke="#888888"
+       stroke-width="2"
+       id="line1" />
+    <text
+       x="0"
+       y="42"
+       fill="#aaaaaa"
+       font-family="Arial"
+       font-size="12px"
+       text-anchor="middle"
+       id="text1"
+       inkscape:label="T-5">T-5</text>
+    <line
+       x1="300"
+       y1="8"
+       x2="300"
+       y2="28"
+       stroke="#888888"
+       stroke-width="2"
+       id="line2" />
+    <text
+       x="300"
+       y="42"
+       fill="#aaaaaa"
+       font-family="Arial"
+       font-size="12px"
+       text-anchor="middle"
+       id="text2"
+       inkscape:label="T-2">T-2</text>
+    <line
+       x1="350"
+       y1="8"
+       x2="350"
+       y2="28"
+       stroke="#888888"
+       stroke-width="2"
+       id="line3" />
+    <text
+       x="349.81342"
+       y="41.447205"
+       fill="#aaaaaa"
+       font-family="Arial"
+       font-size="12px"
+       text-anchor="middle"
+       id="text3"
+       inkscape:label="T-1.5">T-1.5</text>
+    <line
+       x1="500"
+       y1="3"
+       x2="500"
+       y2="28"
+       stroke="#ff5555"
+       stroke-width="2"
+       id="line4" />
+    <text
+       x="500"
+       y="42"
+       fill="#ff5555"
+       font-family="Arial"
+       font-size="14px"
+       font-weight="bold"
+       text-anchor="middle"
+       id="text22"
+       inkscape:label="T=0">T=0</text>
+    <line
+       x1="550"
+       y1="8"
+       x2="550"
+       y2="28"
+       stroke="#888888"
+       stroke-width="2"
+       id="line22" />
+    <text
+       x="552.36707"
+       y="40.909977"
+       fill="#aaaaaa"
+       font-family="Arial"
+       font-size="12px"
+       text-anchor="middle"
+       id="text26"
+       inkscape:label="T+0.5">T+0.5</text>
+    <line
+       x1="700"
+       y1="8"
+       x2="700"
+       y2="28"
+       stroke="#888888"
+       stroke-width="2"
+       id="line26" />
+    <text
+       x="700"
+       y="42"
+       fill="#aaaaaa"
+       font-family="Arial"
+       font-size="12px"
+       text-anchor="middle"
+       id="text28"
+       inkscape:label="T+2">T+2</text>
+    <line
+       x1="1000"
+       y1="8"
+       x2="1000"
+       y2="28"
+       stroke="#888888"
+       stroke-width="2"
+       id="line28" />
+    <text
+       x="1000"
+       y="42"
+       fill="#aaaaaa"
+       font-family="Arial"
+       font-size="12px"
+       text-anchor="middle"
+       id="text31"
+       inkscape:label="T+5">T+5</text>
+    <g
+       id="timeline_cursor"
+       inkscape:label="timeline_cursor">
+      <polygon
+         points="0,18 -6,28 6,28 "
+         fill="#00ff00"
+         id="poly_cursor" />
+      <text
+         id="text_current_time"
+         inkscape:label="text_current_time"
+         x="0"
+         y="5"
+         fill="#00ff00"
+         font-family="Consolas"
+         font-size="14px"
+         font-weight="bold"
+         text-anchor="middle">T-5.00s</text>
+    </g>
+    <!-- 人类直觉读秒 (从0开始) -->
+  </g>
+  <text
+     id="text_elapsed_time"
+     inkscape:label="text_elapsed_time"
+     x="1742.1011"
+     y="1025.7825"
+     fill="#ffffff"
+     font-family="Consolas"
+     font-size="24.1799px"
+     font-weight="bold"
+     text-anchor="start"
+     style="stroke-width:1.34333">00:00.00</text>
+</svg>
